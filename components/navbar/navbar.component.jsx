@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 import {
   NavbarContainer,
@@ -14,12 +15,16 @@ const NavbarComponent = () => {
 
   return (
     <NavbarContainer>
-      <Image
-        src="/images/alpha-logo.png"
-        alt="company-logo"
-        height={100}
-        width={100}
-      />
+      <Link href="/">
+        <a>
+          <Image
+            src="/images/alpha-logo.png"
+            alt="company-logo"
+            height={80}
+            width={80}
+          />
+        </a>
+      </Link>
 
       <HamburgerMenu onClick={() => toggleHidden(!hidden)}>
         <HamburgerBar />
