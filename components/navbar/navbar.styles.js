@@ -71,10 +71,18 @@ export const HamburgerMenu = styled.div`
   :hover {
     background-color: rgba(255, 255, 255, 0.08);
   }
+
+  @media screen and (max-width: 550px) {
+    gap: 4px;
+  }
 `;
 
 export const HamburgerBar = styled.span`
   width: 25px;
   background-color: white;
   height: 2px;
+
+  @media screen and (max-width: 550px) {
+    width: 20px;
+  }
 `;

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
+import Link from "next/Link";
 
 import {
   NavbarContainer,
@@ -20,8 +20,8 @@ const NavbarComponent = () => {
           <Image
             src="/images/alpha-logo.png"
             alt="company-logo"
-            height={80}
-            width={80}
+            width={60}
+            height={60}
           />
         </a>
       </Link>
@@ -34,7 +34,7 @@ const NavbarComponent = () => {
 
       <LinksContainer hidden={hidden}>
         <LinkContainer>Crea una cita</LinkContainer>
-        <LinkContainer>Porque nosotros?</LinkContainer>
+        <LinkContainer>¿Porqué nosotros?</LinkContainer>
         <LinkContainer>Nuestro trabajo</LinkContainer>
         <LinkContainer>Acerca de</LinkContainer>
       </LinksContainer>

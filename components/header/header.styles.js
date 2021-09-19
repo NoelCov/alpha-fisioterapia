@@ -4,20 +4,32 @@ export const HeaderContainer = styled.header`
   display: flex;
   align-items: center;
   min-height: 90vh;
-  padding: 0 260px;
+  padding: 0 12vw;
   justify-content: space-between;
   background-color: #073044;
   color: white;
+  gap: 50px;
 
   @media screen and (max-width: 950px) {
-    flex-direction: column;
+    flex-direction: column-reverse;
     padding: 8vh 200px;
     text-align: center;
+  }
+
+  @media screen and (max-width: 550px) {
+    padding: 8vh 100px;
+    flex-direction: column;
   }
 `;
 
 export const ImageContainer = styled.div`
+  width: 600px;
+
   @media screen and (max-width: 950px) {
+    width: 500px;
+  }
+
+  @media screen and (max-width: 550px) {
     display: none;
   }
 `;
@@ -31,6 +43,11 @@ export const HeaderInformationContainer = styled.div`
   @media screen and (max-width: 950px) {
     max-width: 60vw;
   }
+
+  @media screen and (max-width: 550px) {
+    max-width: 100vw;
+    gap: 45px;
+  }
 `;
 
 export const HeaderTitle = styled.h1`
@@ -40,6 +57,10 @@ export const HeaderTitle = styled.h1`
 
   @media screen and (max-width: 950px) {
     font-size: 50px;
+  }
+
+  @media screen and (max-width: 550px) {
+    font-size: 35px;
   }
 `;
 
@@ -52,6 +73,10 @@ export const HeaderText = styled.p`
   @media screen and (max-width: 950px) {
     font-size: 22px;
   }
+
+  @media screen and (max-width: 550px) {
+    font-size: 18px;
+  }
 `;
 
 export const SocialsContainer = styled.div`
@@ -63,6 +88,14 @@ export const SocialsContainer = styled.div`
 
   @media screen and (max-width: 950px) {
     margin: 0 auto;
+  }
+
+  @media screen and (max-width: 550px) {
+    margin: 0 auto;
+  }
+
+  @media screen and (max-width: 400px) {
+    width: 80vw;
   }
 `;
 
@@ -94,6 +127,11 @@ export const SocialIcon = styled.div`
   @media screen and (max-width: 950px) {
     width: 30px;
     height: 32px;
+  }
+
+  @media screen and (max-width: 550px) {
+    width: 25px;
+    height: 28px;
   }
 `;
 
