@@ -38,7 +38,7 @@ export const LinksContainer = styled.ul`
   }
 `;
 
-export const LinkContainer = styled.li`
+export const LinkContainer = styled.a`
   font-size: 18px;
   padding: 15px 20px;
   border-radius: 5px;

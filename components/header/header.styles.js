@@ -1,81 +1,86 @@
 import styled, { keyframes } from "styled-components";
 
 export const HeaderContainer = styled.header`
-  display: flex;
-  align-items: center;
-  min-height: 90vh;
-  padding: 0 12vw;
-  justify-content: space-between;
   background-color: #073044;
   color: white;
-  gap: 50px;
+  min-height: 91vh;
+  display: flex;
+  align-items: center;
 
   @media screen and (max-width: 950px) {
-    flex-direction: column-reverse;
-    padding: 8vh 200px;
-    text-align: center;
+    min-height: 0;
   }
 
   @media screen and (max-width: 550px) {
-    padding: 8vh 100px;
-    flex-direction: column;
+    padding: 10vh 0;
   }
 `;
 
 export const ImageContainer = styled.div`
-  width: 600px;
+  @media screen and (max-width: 550px) {
+    display: none;
+  }
+`;
+
+export const ContentContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 100px;
 
   @media screen and (max-width: 950px) {
-    width: 500px;
+    flex-direction: column-reverse;
+    padding: 8vh 0;
+    text-align: center;
   }
 
   @media screen and (max-width: 550px) {
-    display: none;
+    flex-direction: column;
   }
 `;
 
 export const HeaderInformationContainer = styled.div`
   display: flex;
   flex-direction: column;
-  max-width: 35vw;
+  width: 45%;
   gap: 80px;
 
   @media screen and (max-width: 950px) {
-    max-width: 60vw;
+    width: 70%;
   }
 
   @media screen and (max-width: 550px) {
-    max-width: 100vw;
+    width: 95%;
     gap: 45px;
   }
 `;
 
 export const HeaderTitle = styled.h1`
   margin: 0;
-  font-size: 60px;
+  font-size: 3.75rem;
   font-family: "Poppins";
 
   @media screen and (max-width: 950px) {
-    font-size: 50px;
+    font-size: 3.1rem;
   }
 
   @media screen and (max-width: 550px) {
-    font-size: 35px;
+    font-size: 2.18rem;
   }
 `;
 
 export const HeaderText = styled.p`
   margin: 0;
-  font-size: 25px;
+  font-size: 1.56rem;
   font-family: "Nunito";
   line-height: 1.5;
 
   @media screen and (max-width: 950px) {
-    font-size: 22px;
+    font-size: 1.4rem;
   }
 
   @media screen and (max-width: 550px) {
-    font-size: 18px;
+    font-size: 1.2rem;
   }
 `;
 
