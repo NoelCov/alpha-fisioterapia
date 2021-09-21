@@ -10,13 +10,13 @@ export const BodyContainer = styled.div`
   background-color: #052636;
   color: white;
   font-family: "Nunito";
+  min-width: 100vw;
 
   @media screen and (max-width: 950px) {
-    min-height: 90vh;
+    padding: 10vh 0;
   }
 
-  @media screen and (max-width: 950px) {
-    min-height: 80vh;
+  @media screen and (max-width: 550px) {
     padding: 10vh 0;
   }
 `;
@@ -31,7 +31,7 @@ export const BodyTitle = styled.h2`
   }
 
   @media screen and (max-width: 550px) {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 `;
 
@@ -42,23 +42,44 @@ export const ContentContainer = styled.div`
 
   @media screen and (max-width: 950px) {
     flex-direction: column;
+    gap: 60px;
+  }
+
+  @media screen and (max-width: 550px) {
+    gap: 80px;
+  }
+`;
+
+export const MapContainer = styled.div`
+  min-width: 45%;
+  height: 400px;
+  position: relative;
+
+  @media screen and (max-width: 950px) {
+    width: 90%;
+  }
+
+  @media screen and (max-width: 550px) {
+    width: 100%;
   }
 `;
 
 export const InformationContainer = styled.div`
   display: flex;
   flex-direction: column;
-  max-width: 50%;
+  max-width: 45%;
 
   @media screen and (max-width: 950px) {
     text-align: center;
     align-items: center;
-    max-width: 80%;
+    min-width: 90%;
   }
 `;
 
 export const InformationText = styled.p`
   font-size: 1.5rem;
+  display: flex;
+  align-items: center;
 
   @media screen and (max-width: 950px) {
     font-size: 1.2rem;

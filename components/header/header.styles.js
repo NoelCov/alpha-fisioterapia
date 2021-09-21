@@ -8,11 +8,13 @@ export const HeaderContainer = styled.header`
   align-items: center;
 
   @media screen and (max-width: 950px) {
-    min-height: 0;
+    min-height: 100vh;
+    padding: 10vh 0;
   }
 
   @media screen and (max-width: 550px) {
-    padding: 10vh 0;
+    min-height: 0;
+    padding: 5vh 0;
   }
 `;
 
@@ -30,7 +32,7 @@ export const ContentContainer = styled.div`
 
   @media screen and (max-width: 950px) {
     flex-direction: column-reverse;
-    padding: 8vh 0;
+    padding: 10vh 0;
     text-align: center;
   }
 

@@ -1,7 +1,9 @@
 import React from "react";
 
 import Container from "../container/container.component";
-import Image from "next/image";
+import GoogleApiWrapper from "../map/map.component";
+
+import { FaWhatsapp } from "react-icons/fa";
 
 import {
   BodyContainer,
@@ -10,6 +12,7 @@ import {
   InformationContainer,
   InformationText,
   ActionButton,
+  MapContainer,
 } from "./body.styles";
 
 const Body = () => {
@@ -18,13 +21,18 @@ const Body = () => {
       <BodyTitle>VEN A VISITARNOS</BodyTitle>
       <Container>
         <ContentContainer>
-          <Image src="/images/51.svg" height={400} width={500} />
+          <MapContainer>
+            <GoogleApiWrapper />
+          </MapContainer>
           <InformationContainer>
             <InformationText>
-              📍 - Sierra de Tepoztlán #128 A Bosques del Prado Sur,
+              📍 Sierra de Tepoztlán #128 A Bosques del Prado Sur,
               Aguascalientes, Ags
             </InformationText>
-            <InformationText>📞 - 449 555 4345 (Whatsapp)</InformationText>
+            <InformationText>
+              <FaWhatsapp style={{color: "#24cc63"}} />
+              <span>&nbsp;</span>+52 449 555 4345
+            </InformationText>
           </InformationContainer>
         </ContentContainer>
       </Container>
