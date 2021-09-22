@@ -19,6 +19,11 @@ export const HeaderContainer = styled.header`
 `;
 
 export const ImageContainer = styled.div`
+  border: 1.5px solid #b5c9d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   @media screen and (max-width: 550px) {
     display: none;
   }
@@ -131,3 +136,5 @@ export const Line = styled.div`
   width: 0px;
   animation: ${drawLine} 1s forwards;
 `;
+
+

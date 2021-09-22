@@ -13,7 +13,7 @@ import {
 
 const OurTeam = () => {
   return (
-    <OurTeamContainer>
+    <OurTeamContainer id="our-team">
       <SectionSubheader>NUESTRO EQUIPO</SectionSubheader>
       <Container>
         <TeamContent>

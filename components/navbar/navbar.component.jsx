@@ -35,8 +35,8 @@ const NavbarComponent = () => {
       <LinksContainer hidden={hidden}>
         <LinkContainer href="#visit-us">Crea una cita</LinkContainer>
         <LinkContainer href="#why-us">¿Porqué nosotros?</LinkContainer>
+        <LinkContainer href="#our-team">Nuestro equipo</LinkContainer>
         <LinkContainer>Nuestro trabajo</LinkContainer>
-        <LinkContainer>Nuestro equipo</LinkContainer>
       </LinksContainer>
     </NavbarContainer>
   );

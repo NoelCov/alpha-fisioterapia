@@ -5,6 +5,7 @@ import {
   WhyUsContainer,
   WhyUsContentContainer,
   TextContainer,
+  ImageContainer,
 } from "./why-us.styles";
 
 import SectionSubHeader from "../utils/section-subheader.component";
@@ -24,17 +25,19 @@ const WhyUsComponent = () => {
               a través del movimiento para que no dejes de hacer lo que te
               guste, o, que regreses a practicar deporte lo antes posible.
               <span style={{ color: "#db3d89" }}>
-               <span>&nbsp;</span> Sin dolor. Sin limitaciones
+                <span>&nbsp;</span> Sin dolor. Sin limitaciones
               </span>
             </SectionText>
             <Image src="/images/dumbell.png" width={100} height={100} />
           </TextContainer>
-          <Image
-            src="/images/alpha-why-us.jpg"
-            width={580}
-            height={400}
-            alt="team member attending client"
-          />
+          <ImageContainer>
+            <Image
+              src="/images/alpha-why-us.jpg"
+              width={580}
+              height={400}
+              alt="team member attending client"
+            />
+          </ImageContainer>
         </WhyUsContentContainer>
       </Container>
     </WhyUsContainer>

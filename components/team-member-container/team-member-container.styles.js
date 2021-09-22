@@ -84,3 +84,22 @@ export const ContentContainer = styled.div`
   flex-direction: column;
   gap: 150px;
 `;
+
+export const ImageBorder = styled.div`
+  border: 5px solid #b5c9d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0;
+  width: 540px;
+  border-radius: 2.5px;
+
+  @media screen and (max-width: 950px) {
+    padding: 15px;
+    border: 3px solid #b5c9d9;
+  }
+
+  @media screen and (max-width: 550px) {
+    padding: 5px;
+  }
+`

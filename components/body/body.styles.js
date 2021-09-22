@@ -41,6 +41,7 @@ export const MapContainer = styled.div`
 
   @media screen and (max-width: 550px) {
     width: 100%;
+    margin-bottom: 5vh;
   }
 `;
 

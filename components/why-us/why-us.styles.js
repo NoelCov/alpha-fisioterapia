@@ -41,3 +41,11 @@ export const TextContainer = styled.div`
     text-align: center;
   }
 `;
+
+export const ImageContainer = styled.div`
+  border: 1.5px solid #b5c9d9;
+  display: flex;
+  align-items: center;
+  padding: 2.5px;
+  justify-content: center;
+`;
