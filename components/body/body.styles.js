@@ -9,29 +9,9 @@ export const BodyContainer = styled.div`
   justify-content: space-around;
   background-color: #052636;
   color: white;
-  font-family: "Nunito";
-  min-width: 100vw;
 
   @media screen and (max-width: 950px) {
-    padding: 10vh 0;
-  }
-
-  @media screen and (max-width: 550px) {
-    padding: 10vh 0;
-  }
-`;
-
-export const BodyTitle = styled.h2`
-  margin: 0;
-  font-size: 3rem;
-  font-family: "Poppins";
-
-  @media screen and (max-width: 950px) {
-    font-size: 2.5rem;
-  }
-
-  @media screen and (max-width: 550px) {
-    font-size: 1.4rem;
+    min-height: 100vh;
   }
 `;
 
@@ -41,8 +21,8 @@ export const ContentContainer = styled.div`
   justify-content: space-between;
 
   @media screen and (max-width: 950px) {
-    flex-direction: column;
-    gap: 60px;
+    flex-direction: column-reverse;
+    gap: 50px;
   }
 
   @media screen and (max-width: 550px) {
@@ -68,25 +48,12 @@ export const InformationContainer = styled.div`
   display: flex;
   flex-direction: column;
   max-width: 45%;
+  gap: 50px;
 
   @media screen and (max-width: 950px) {
     text-align: center;
     align-items: center;
     min-width: 90%;
-  }
-`;
-
-export const InformationText = styled.p`
-  font-size: 1.5rem;
-  display: flex;
-  align-items: center;
-
-  @media screen and (max-width: 950px) {
-    font-size: 1.2rem;
-  }
-
-  @media screen and (max-width: 550px) {
-    font-size: 1rem;
   }
 `;
 

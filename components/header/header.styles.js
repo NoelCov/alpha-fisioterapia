@@ -9,7 +9,7 @@ export const HeaderContainer = styled.header`
 
   @media screen and (max-width: 950px) {
     min-height: 100vh;
-    padding: 10vh 0;
+    padding: 5vh 0;
   }
 
   @media screen and (max-width: 550px) {
@@ -54,35 +54,6 @@ export const HeaderInformationContainer = styled.div`
   @media screen and (max-width: 550px) {
     width: 95%;
     gap: 45px;
-  }
-`;
-
-export const HeaderTitle = styled.h1`
-  margin: 0;
-  font-size: 3.75rem;
-  font-family: "Poppins";
-
-  @media screen and (max-width: 950px) {
-    font-size: 3.1rem;
-  }
-
-  @media screen and (max-width: 550px) {
-    font-size: 2.18rem;
-  }
-`;
-
-export const HeaderText = styled.p`
-  margin: 0;
-  font-size: 1.56rem;
-  font-family: "Nunito";
-  line-height: 1.5;
-
-  @media screen and (max-width: 950px) {
-    font-size: 1.4rem;
-  }
-
-  @media screen and (max-width: 550px) {
-    font-size: 1.2rem;
   }
 `;
 

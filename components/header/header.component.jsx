@@ -2,13 +2,13 @@ import React from "react";
 import Image from "next/image";
 
 import Container from "../container/container.component";
+import SectionHeader from "../utils/section-header.component";
+import SectionText from "../utils/section-text.component";
 
 import {
   HeaderContainer,
   ContentContainer,
-  HeaderTitle,
   HeaderInformationContainer,
-  HeaderText,
   SocialsContainer,
   SocialIcon,
   Line,
@@ -30,12 +30,12 @@ const Header = () => {
           </ImageContainer>
 
           <HeaderInformationContainer>
-            <HeaderTitle>ALPHA FISIOTERAPIA</HeaderTitle>
-            <HeaderText>
+            <SectionHeader>ALPHA FISIOTERAPIA</SectionHeader>
+            <SectionText>
               Nosotros nos compremetemos a ayudarte a traves del movimiento para
               que mejores desde el primer dia y no pares de hacer lo que te
               gusta!
-            </HeaderText>
+            </SectionText>
             <SocialsContainer>
               <Line />
               <a
