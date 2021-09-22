@@ -13,6 +13,12 @@ export const BodyContainer = styled.div`
   @media screen and (max-width: 950px) {
     min-height: 100vh;
   }
+
+  @media screen and (max-width: 550px) {
+    min-height: 850px;
+    padding: 8vh 0;
+    justify-content: space-between;
+  }
 `;
 
 export const ContentContainer = styled.div`
@@ -41,7 +47,6 @@ export const MapContainer = styled.div`
 
   @media screen and (max-width: 550px) {
     width: 100%;
-    margin-bottom: 5vh;
   }
 `;
 

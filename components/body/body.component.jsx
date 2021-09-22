@@ -31,7 +31,7 @@ const Body = () => {
             </SectionText>
             <SectionText>
               <FaWhatsapp style={{ color: "#24cc63" }} />
-              <span>&nbsp;</span>+52 449 475 9541
+              <span>&nbsp;</span>+52 (449) 475-9541
             </SectionText>
           </InformationContainer>
         </ContentContainer>

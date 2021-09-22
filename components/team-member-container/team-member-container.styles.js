@@ -6,7 +6,7 @@ export const Container = styled.div`
   align-items: center;
   justify-content: space-around;
   width: 100%;
-  gap: 150px;
+  gap: 125px;
 
   @media screen and (max-width: 950px) {
     display: flex;
@@ -59,7 +59,7 @@ const CardContainer = css`
   padding: 35px 40px;
   box-shadow: black 0px 3px 6px 0px;
   gap: 50px;
-  min-height: 55%;
+  min-height: 40%;
   background-color: #d9d9d9;
   background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);
 

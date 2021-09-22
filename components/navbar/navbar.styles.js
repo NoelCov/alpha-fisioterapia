@@ -50,7 +50,7 @@ export const LinkContainer = styled.a`
   }
 
   @media screen and (max-width: 950px) {
-    width: 100%;
+    max-width: 100%;
   }
 `;
 
