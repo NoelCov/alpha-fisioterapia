@@ -9,6 +9,7 @@ export const NavbarContainer = styled.nav`
   color: white;
   font-family: "Nunito";
   border-bottom: 0.5px solid white;
+  max-width: 100%;
 
   @media screen and (max-width: 950px) {
     padding: 0 5vw;

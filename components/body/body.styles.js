@@ -60,6 +60,7 @@ export const InformationContainer = styled.div`
 
 export const ActionButton = styled.a`
   background-color: #db3d89;
+  font-family: "Nunito";
   padding: 18px 40px;
   border-radius: 2.5px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,

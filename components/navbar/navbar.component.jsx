@@ -33,10 +33,12 @@ const NavbarComponent = () => {
       </HamburgerMenu>
 
       <LinksContainer hidden={hidden}>
-        <LinkContainer href="#visit-us">Crea una cita</LinkContainer>
-        <LinkContainer href="#why-us">¿Porqué nosotros?</LinkContainer>
-        <LinkContainer href="#our-team">Nuestro equipo</LinkContainer>
-        <LinkContainer>Nuestro trabajo</LinkContainer>
+        <LinkContainer href="/#visit-us">Crea una cita</LinkContainer>
+        <LinkContainer href="/#why-us">¿Porqué nosotros?</LinkContainer>
+        <LinkContainer href="/#our-team">Nuestro equipo</LinkContainer>
+        <LinkContainer>
+          <Link href="/gallery">Nuestro trabajo</Link>
+        </LinkContainer>
       </LinksContainer>
     </NavbarContainer>
   );

@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Alpha Fisioterapia</title>
+        <title>Alpha Fisioterapia - HomePage</title>
       </Head>
       <Layout>
         <Header />
