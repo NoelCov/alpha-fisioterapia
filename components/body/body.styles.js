@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const BodyContainer = styled.div`
-  min-height: 80vh;
   padding: 5vh 0;
   display: flex;
   flex-direction: column;
@@ -9,15 +8,10 @@ export const BodyContainer = styled.div`
   justify-content: space-around;
   background-color: #052636;
   color: white;
-
-  @media screen and (max-width: 950px) {
-    min-height: 100vh;
-  }
+  gap: 25px 0;
 
   @media screen and (max-width: 550px) {
-    min-height: 850px;
     padding: 8vh 0;
-    justify-content: space-between;
   }
 `;
 
@@ -25,13 +19,10 @@ export const ContentContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 8vh 0;
 
   @media screen and (max-width: 950px) {
     flex-direction: column-reverse;
-    gap: 50px;
-  }
-
-  @media screen and (max-width: 550px) {
     gap: 80px;
   }
 `;

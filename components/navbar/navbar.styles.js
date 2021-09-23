@@ -23,19 +23,22 @@ export const LinksContainer = styled.ul`
   align-items: center;
 
   @media screen and (max-width: 950px) {
-    position: absolute;
+    position: fixed;
+    margin: 0;
     z-index: 1;
-    display: ${(props) => (props.hidden ? "none" : "flex")};
+    display: "flex";
     flex-direction: column;
     justify-items: center;
     text-align: center;
-    padding-top: 5vh;
+    padding-top: 10vh;
     gap: 60px;
-    top: 7vh;
-    right: 0;
-    height: 100vh;
-    background-color: inherit;
+    top: 0;
+    right: ${(props) => props.hidden ? "-300px" : "0"};
+    min-height: 100vh;
+    background-color: #233044;
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 0px 1px 0px, rgba(0, 0, 0, 0.5) 0px 11px 20px -8px;
     width: 250px;
+    transition: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
   }
 `;
 
@@ -58,13 +61,14 @@ export const HamburgerMenu = styled.div`
   @media screen and (max-width: 950px) {
     display: flex;
     flex-direction: column;
+    z-index: 2;
     margin-left: auto;
     gap: 6px;
     justify-content: center;
     align-items: center;
     width: 50px;
     height: 50px;
-    background-color: inherit;
+    background-color: ${(props) => props.hidden ? "none" : "#233044"};
     border-radius: 50%;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   }
