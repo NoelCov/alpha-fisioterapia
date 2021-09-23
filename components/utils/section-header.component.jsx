@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 import React from "react";
 
-const SectionHeaderContainer = styled.h2`
+const SectionHeaderContainer = styled.h1`
   margin: 0;
   font-size: 3.5rem;
   font-family: "Poppins";
