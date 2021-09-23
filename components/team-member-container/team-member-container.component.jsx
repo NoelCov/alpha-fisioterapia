@@ -45,12 +45,12 @@ export const BigContainer = () => {
       <TeamMemberContainerLeft
         img="/images/team-members/alpha-ale.jpg"
         name="Alejandra"
-        text={`Gran parte de mi vida he practicado y eh aprendido diversos deportes
-            como el atletismo, fútbol, calistenia y yoga. Gracias a que siempre eh sido una
-            apasionada por el movimiento y actividad física; eh podido implementarlo con mis pacientes, para enseñarles
-            el mejor camino para tratar su dolor, limitación, para que conozcan y tratemos juntos sus lesiones.
-            Para llegar a todo aquel que sufra de dolor y quiera seguir practicando aquello que les guste. Me 
-            encanta moverme, aprender y enseñar a través del movimiento.`}
+        text={`Gran parte de mi vida he practicado y he aprendido diversos deportes
+            como el atletismo, fútbol, calistenia y yoga. Gracias a que soy una persona apasionada por el movimiento y
+            la actividad física he logrado implementar el ejercicio con mis pacientes para enseñarles
+            el mejor camino para tratar su recuperación, tratando y enseñándoles sobre su dolor, limitación y lesiones. Para 
+            llegar a todo aquel que sufra de dolor y quiera vivir plenamente. Me encanta moverme, aprender y enseñar a través del
+             movimiento.`}
       />
       <TeamMemberContainerRight
         img="/images/team-members/alpha-david.jpg"

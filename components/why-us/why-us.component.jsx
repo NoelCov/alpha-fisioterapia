@@ -23,7 +23,7 @@ const WhyUsComponent = () => {
               Somos la única y mejor clinica de Fisioterapia que se especializa
               y realiza deporte. Buscamos mejorar tus capacidades constantemente
               a través del movimiento para que no dejes de hacer lo que te
-              guste, o, que regreses a practicar deporte lo antes posible.
+              gusta y que regreses a practicar deporte lo antes posible.
               <span style={{ color: "#db3d89" }}>
                 <span>&nbsp;</span> Sin dolor. Sin limitaciones
               </span>

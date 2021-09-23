@@ -33,7 +33,7 @@ const Header = () => {
             <SectionHeader>ALPHA FISIOTERAPIA</SectionHeader>
             <SectionText>
               Nosotros nos compremetemos a ayudarte a traves del movimiento para
-              que mejores desde el primer dia y no pares de hacer lo que te
+              que mejores desde el primer dia y ¡no pares de hacer lo que te
               gusta!
             </SectionText>
             <SocialsContainer>
