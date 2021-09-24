@@ -28,6 +28,7 @@ const Gallery = () => {
           Con el fin de que se recuperen y puedan volver a realizar sus actividades lo mas pronto posible."
         />
         <meta property="twitter:image" content={LandingImage} />
+        <html lang='es' />
       </Head>
       <Layout>
         <GalleryComponent />

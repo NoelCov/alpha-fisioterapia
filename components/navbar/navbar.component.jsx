@@ -37,17 +37,17 @@ const NavbarComponent = () => {
       </HamburgerMenu>
 
       <LinksContainer hidden={hidden}>
-        <LinkContainer href="/#visit-us" onClick={onClick}>
-          Crea una cita
-        </LinkContainer>
-        <LinkContainer href="/#why-us" onClick={onClick}>
-          ¿Porqué nosotros?
-        </LinkContainer>
-        <LinkContainer href="/#our-team" onClick={onClick}>
-          Nuestro equipo
+        <LinkContainer onClick={onClick}>
+          <a href="/#visit-us">Crea una cita </a>
         </LinkContainer>
         <LinkContainer onClick={onClick}>
-          <Link href="/gallery">Nuestro trabajo</Link>
+          <a href="/#why-us">¿Porqué nosotros? </a>
+        </LinkContainer>
+        <LinkContainer onClick={onClick}>
+          <a href="/#our-team">Nuestro equipo </a>
+        </LinkContainer>
+        <LinkContainer onClick={onClick}>
+          <Link href="/gallery">Nuestro trabajo </Link>
         </LinkContainer>
       </LinksContainer>
     </NavbarContainer>

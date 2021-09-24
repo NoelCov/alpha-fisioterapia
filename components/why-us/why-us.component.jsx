@@ -28,7 +28,7 @@ const WhyUsComponent = () => {
                 <span>&nbsp;</span> Sin dolor. Sin limitaciones
               </span>
             </SectionText>
-            <Image src="/images/dumbell.png" width={100} height={100} />
+            <Image src="/images/dumbell.png" width={100} height={100} alt="dumbell" />
           </TextContainer>
           <ImageContainer>
             <Image
