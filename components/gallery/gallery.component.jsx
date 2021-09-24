@@ -16,22 +16,20 @@ const GalleryComponent = () => {
   return (
     <GalleryContainer>
       <SectionHeader>NUESTRO TRABAJO</SectionHeader>
-      <Container>
         <ImagesContainer>
           {numberOfImages.map((item) => {
             return (
               <ImageContainer>
                 <Image
                   src={`/images/gallery/${item}.jpg`}
-                  width={500}
-                  height={500}
+                  width={900}
+                  height={700}
                   alt="team member working"
                 />
               </ImageContainer>
             );
           })}
         </ImagesContainer>
-      </Container>
     </GalleryContainer>
   );
 };

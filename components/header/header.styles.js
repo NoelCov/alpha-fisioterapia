@@ -6,6 +6,7 @@ export const HeaderContainer = styled.header`
   min-height: 91vh;
   display: flex;
   align-items: center;
+  width: 100%;
 
   @media screen and (max-width: 950px) {
     min-height: 100vh;
@@ -23,6 +24,11 @@ export const ImageContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 50%;
+
+  @media screen and (max-width: 950px) {
+    width: 85%;
+  }
 
   @media screen and (max-width: 550px) {
     display: none;
@@ -33,11 +39,13 @@ export const ContentContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
+  position: relative;
+  width: 100%;
   gap: 100px;
 
   @media screen and (max-width: 950px) {
     flex-direction: column-reverse;
-    padding: 10vh 0;
+    padding: 8vh 0;
     text-align: center;
   }
 
@@ -49,7 +57,7 @@ export const ContentContainer = styled.div`
 export const HeaderInformationContainer = styled.div`
   display: flex;
   flex-direction: column;
-  width: 45%;
+  width: 50%;
   gap: 80px;
 
   @media screen and (max-width: 950px) {

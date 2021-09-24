@@ -33,8 +33,8 @@ const WhyUsComponent = () => {
           <ImageContainer>
             <Image
               src="/images/alpha-why-us.jpg"
-              width={580}
-              height={400}
+              width={900}
+              height={720}
               alt="team member attending client"
             />
           </ImageContainer>

@@ -14,7 +14,7 @@ export default function Home() {
         <title>Alpha Fisioterapia - HomePage</title>
         <meta
           name="description"
-          content="Alpha Fisioterapia es una clinica donde apoyamos a personas con dolores y/o problemas musculares a traves del movimiento.
+          content="Alpha Fisioterapia es una clinica localizada en Aguascalientes, MX. En donde apoyamos a personas con dolores y/o problemas musculares a traves del movimiento.
           Con el fin de que se recuperen y puedan volver a realizar sus actividades lo mas pronto posible."
         />
         <meta
@@ -29,7 +29,7 @@ export default function Home() {
         />
         <meta
           property="twitter:description"
-          content="Alpha Fisioterapia es una clinica donde apoyamos a personas con dolores y/o problemas musculares a traves del movimiento.
+          content="Alpha Fisioterapia es una clinica localizada en Aguascalientes, MX. En donde apoyamos a personas con dolores y/o problemas musculares a traves del movimiento.
           Con el fin de que se recuperen y puedan volver a realizar sus actividades lo mas pronto posible."
         />
         <meta property="twitter:image" content={LandingImage} />

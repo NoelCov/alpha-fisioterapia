@@ -7,8 +7,7 @@ export const WhyUsContainer = styled.div`
   align-items: center;
   justify-content: space-around;
   color: white;
-  padding: 5vh 0;
-  min-height: 70vh;
+  padding: 8vh 0;
   font-family: "Nunito";
 
   @media screen and (max-width: 550px) {
@@ -21,10 +20,12 @@ export const WhyUsContentContainer = styled.div`
   align-items: center;
   justify-content: space-around;
   gap: 100px;
-  padding: 5vh 0;
+  width: 100%;
+  padding: 8vh 0;
 
   @media screen and (max-width: 950px) {
     flex-direction: column;
+    padding: 8vh 0 2vh;
   }
 `;
 
@@ -32,13 +33,13 @@ export const TextContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
   align-items: center;
   width: 50%;
   gap: 50px;
 
   @media screen and (max-width: 950px) {
     width: 90%;
-    text-align: center;
   }
 `;
 
@@ -48,4 +49,9 @@ export const ImageContainer = styled.div`
   align-items: center;
   padding: 2.5px;
   justify-content: center;
+  width: 50%;
+
+  @media screen and (max-width: 950px) {
+    width: 85%;
+  }
 `;

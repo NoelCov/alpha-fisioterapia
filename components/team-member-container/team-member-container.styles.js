@@ -45,7 +45,8 @@ export const CardText = styled.p`
   }
 
   @media screen and (max-width: 550px) {
-    line-height: 1.6;
+    line-height: 1.5;
+    font-size: 1rem;
   }
 `;
 
@@ -72,6 +73,7 @@ const CardContainer = css`
 
   @media screen and (max-width: 550px) {
     gap: 10px;
+    max-width: 90%;
     padding: 15px;
   }
 `;
@@ -106,23 +108,20 @@ export const ContentContainer = styled.div`
 `;
 
 export const ImageBorder = styled.div`
-  border: 2px solid #b5c9d9;
+  border: 2.5px solid #b5c9d9;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5px 0;
-  width: 510px;
+  max-width: 510px;
   border-radius: 2.5px;
 
   @media screen and (max-width: 950px) {
-    padding: 5px 0;
-    max-width: 510px;
+    max-width: 85%;
     border: 2px solid #b5c9d9;
   }
 
   @media screen and (max-width: 550px) {
-    padding: 5px;
     border: 1px solid #b5c9d9;
-    max-width: 85vw;
+    max-width: 95%;
   }
 `

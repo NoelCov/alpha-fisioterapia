@@ -5,16 +5,10 @@ export const ImageBorder = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto;
-  max-width: 500px;
-  padding: 2.5px;
+  padding: 1px;
   transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 
   :hover {
     transform: scale(1.1);
-  }
-
-  @media screen and (max-width: 550px) {
-    padding: 3px;
   }
 `

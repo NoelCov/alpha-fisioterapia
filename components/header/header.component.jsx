@@ -23,8 +23,8 @@ const Header = () => {
           <ImageContainer>
             <Image
               src="/images/alpha-group.jpg"
-              width={620}
-              height={550}
+              width={2652}
+              height={2122}
               alt="our team"
             />
           </ImageContainer>

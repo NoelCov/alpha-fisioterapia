@@ -15,7 +15,7 @@ const TeamMemberContainerLeft = ({ img, name, text }) => {
   return (
     <Container>
       <ImageBorder>
-        <Image src={img} width={500} height={650} alt="team member" />
+        <Image src={img} width={3000} height={4000} alt="team member" />
       </ImageBorder>
       <CardContainer1>
         <CardTitle>{name}</CardTitle>
@@ -33,7 +33,7 @@ const TeamMemberContainerRight = ({ img, name, text }) => {
         <CardText>{text}</CardText>
       </CardContainer2>
       <ImageBorder>
-        <Image src={img} width={500} height={650} alt="team member" />
+        <Image src={img} width={3000} height={4000} alt="team member" />
       </ImageBorder>
     </Container>
   );
