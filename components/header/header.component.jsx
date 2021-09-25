@@ -41,7 +41,7 @@ const Header = () => {
               <a
                 href="https://www.instagram.com/alphafisioags/"
                 target="_blank"
-                rel="noreferrer"
+                rel="noreferrer noopener"
               >
                 <SocialIcon>
                   <svg
@@ -54,7 +54,11 @@ const Header = () => {
                   </svg>
                 </SocialIcon>
               </a>
-              <a href="https://www.facebook.com/Alphafisioags" target="_blank" rel="noreferrer">
+              <a
+                href="https://www.facebook.com/Alphafisioags"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 <SocialIcon>
                   <svg
                     fill="#DB3D89"
