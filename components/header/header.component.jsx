@@ -26,6 +26,7 @@ const Header = () => {
               width={2652}
               height={2122}
               alt="our team"
+              priority={true}
             />
           </ImageContainer>
 

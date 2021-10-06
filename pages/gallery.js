@@ -20,7 +20,7 @@ const Gallery = () => {
           content="Somos la única y mejor clinica de Fisioterapia que se especializa y realiza deporte."
         />
         <meta name="og:image" content={LandingImage} />
-        <meta property="twitter:url" content="https://alphafisioterapia.com/" />
+        <meta property="twitter:url" content="https://alphafisioterapia.com/gallery" />
         <meta property="twitter:title" content="Alpha Fisioterapia - Gallery" />
         <meta
           property="twitter:description"
