@@ -17,7 +17,7 @@ const FooterComponent = () => {
         <InformationText>
           {"Developed by "}
           <a
-            href="https://twitter.com/No3l_Codes"
+            href="https://twitter.com/noel_codes"
             target="_blank"
             rel="noreferrer noopener"
           >
